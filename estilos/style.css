@@ -47,6 +47,9 @@ section#login{
     height: 500px;
     background-color: white;
     transform: translate(-50%, -50%);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 section#login > div#imagem{
     background-size: cover;
