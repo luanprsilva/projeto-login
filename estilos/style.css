@@ -62,3 +62,10 @@ section#login > div#dados{
     display: block;
     padding: 10px;
 }
+div#dados > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#dados > p{
+    font-size: 0.8em;
+}

@@ -37,16 +37,23 @@ lilas: #5f2c82;
         width: 950px;
     }
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     section#login > div#dados{
-       float: right;
+       float: left;
        width: 50%;
     }
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
+    div#dados> h1{
+        font-size: 2em;
+    }
+    div#dados > p{
+    font-size: 1.2em;
+}
+
     
 }
