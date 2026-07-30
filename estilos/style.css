@@ -46,10 +46,10 @@ section#login{
     width: 250px;
     height: 515px;
     background-color: white;
-    transform: translate(-50%, -50%);
 
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 section#login > div#imagem{
     background-size: cover;
@@ -71,15 +71,35 @@ div#dados > p{
 }
 form > div.campo{
     background-color: var(--cor02);
+    border: 2px solid var(--cor02);
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
    
 }
 div.campo > label{
     display: none;
+}
+div.campo > I{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+div.campo >input{
+    background-color: #6ff4ef;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-12px);
+}
+div.campo >input:focus-within{
+    background-color: white;
 }
 form > input[type=submit]{
     display: block;
